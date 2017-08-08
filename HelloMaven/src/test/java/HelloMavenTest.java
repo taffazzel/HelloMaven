@@ -12,7 +12,6 @@ public class HelloMavenTest {
         assertEquals("HelloMaven", hm.getName());
 	assertEquals("Hello", hm2.getName());
 	assertEquals("World",hm3.getName());
-
     }
 
 }
