@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class HelloMavenTest {
     @org.junit.Test
     public void getName() throws Exception {
-        HelloMaven hm = new HelloMaven("HelloMaven");
+        HelloMaven hm = new HelloMaven("Hellomaven");
         assertEquals("HelloMaven", hm.getName());
     }
 
