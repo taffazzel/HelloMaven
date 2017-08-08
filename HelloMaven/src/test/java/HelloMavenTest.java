@@ -9,7 +9,7 @@ public class HelloMavenTest {
         HelloMaven hm = new HelloMaven("HelloMaven");
 	HelloMaven hm2 = new HelloMaven("Hello")
         assertEquals("HelloMaven", hm.getName());
-	assertEquals("Hello",hm2.getName());
+	assertEquals("Hello", hm2.getName());
 
     }
 
