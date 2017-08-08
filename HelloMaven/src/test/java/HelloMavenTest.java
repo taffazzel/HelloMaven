@@ -5,9 +5,12 @@ import static org.junit.Assert.*;
  */
 public class HelloMavenTest {
     @org.junit.Test
-    public void getName() throws Exception {
+    public void getName1() throws Exception {
         HelloMaven hm = new HelloMaven("HelloMaven");
+	HelloMaven hm2 = new HelloMaven("Hello")
         assertEquals("HelloMaven", hm.getName());
+	assertEquals("Hello",hm2.getName());
+
     }
 
 }
