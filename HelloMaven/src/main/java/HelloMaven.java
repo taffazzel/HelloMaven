@@ -8,7 +8,7 @@ public class HelloMaven {
         this.name = name;
     }
 
-    public String getName1() {
+    public String getName() {
         return name;
     }
 }
