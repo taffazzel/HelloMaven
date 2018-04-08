@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     resource = boto3.resource('s3')
     client = boto3.client('s3')
     path_to_source = 'data/'
-    bucket_name = 'bhavin-test-bucket'
+    bucket_name = 'bucket_name'
     response = client.list_objects(Bucket=bucket_name, Prefix=path_to_source)
     count = 0 
     tmp_path = '/tmp/'
