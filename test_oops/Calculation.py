@@ -1,5 +1,6 @@
 __author__ = 'tafaz'
 
+
 class Calculation:
     def __init__(self):
         self.base = ''
